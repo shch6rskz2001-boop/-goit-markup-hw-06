@@ -106,13 +106,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
-
-
-
-
 
 .nav-link-one::after {
     content: '';
@@ -135,7 +129,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
 }
 
 .nav-link:hover,
@@ -147,8 +140,6 @@ img {
     font-style: normal;
     margin-left: auto;
     gap: 40px;
-
-
 }
 
 .business-item {
@@ -157,7 +148,6 @@ img {
     background-position: center;
     background-size: cover;
     max-width: 1440px;
-
 }
 
 .contacts-link {
@@ -188,7 +178,6 @@ img {
     text-align: center;
     margin: 0 auto;
     padding: 188px 0;
-
 }
 
 .bussin {
@@ -196,7 +185,6 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
 }
 
 .business-list {
@@ -209,7 +197,6 @@ img {
     max-width: 496px;
     margin-bottom: 48px;
     margin: 0 auto;
-
 }
 
 .orders {
@@ -231,7 +218,6 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-
 .orders:hover,
 .orders:focus {
     background-color: #404bbf;
@@ -249,7 +235,7 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
-.pizza {
+.princip {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -264,18 +250,7 @@ img {
     padding: 120px 0;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
+
 
 .principles-title {
     font-weight: 500;
@@ -284,7 +259,6 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-
 }
 
 .principles-text {
@@ -347,8 +321,6 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-
-
 .ourteam-name {
     font-weight: 500;
     font-size: 20px;
@@ -376,7 +348,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 24px;
-
 }
 
 .ourte {
@@ -428,7 +399,6 @@ img {
     margin-bottom: 72px;
 }
 
-
 .portfolio-list-item {
     background-color: #4d5ae5;
     border-radius: 50%;
@@ -472,7 +442,6 @@ img {
     position: relative;
     overflow: hidden;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .portfolio-list {
@@ -483,7 +452,6 @@ img {
     justify-content: center;
     padding-left: 15px;
     padding-right: 15px;
-
 }
 
 .overlay {
@@ -508,7 +476,6 @@ img {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-
 }
 
 .footer {
@@ -528,7 +495,7 @@ img {
     display: inline-block;
 }
 
-.юportfolio-item:hover {
+.portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -544,25 +511,22 @@ img {
     letter-spacing: 0.02em;
     color: #f4f4fd;
     max-width: 264px;
-
 }
 
 .footer-item {
     display: flex;
     align-items: baseline;
+    flex-direction: row;
 }
-
 
 .social {
     width: 40px;
     height: 40px;
-
 }
 
 .soci {
     fill: #f4f4fd;
 }
-
 
 .footer-text {
     font-size: 16px;
@@ -571,7 +535,6 @@ img {
     color: #f4f4fd;
     max-width: 264px;
 }
-
 
 .social-media {
     font-weight: 500;
@@ -609,6 +572,10 @@ img {
     height: 100%;
 }
 
+.soc {
+    margin-right: 80px;
+}
+
 .social :hover {
     background-color: #31d0aa;
 }
@@ -631,7 +598,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-
 }
 
 .backdrod {
@@ -656,12 +622,9 @@ img {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-
-
 }
 
 .position {
-
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     border-radius: 4px;
@@ -686,12 +649,8 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-item {
-    margin-bottom: 18px;
-    display: flex;
-    flex-direction: column;
+.modal-item-canter {
     margin-bottom: 8px;
-
 }
 
 .close-popup {
@@ -726,9 +685,7 @@ img {
 
 .close-popup-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
-
 
 .label-field {
     font-size: 12px;
@@ -737,7 +694,6 @@ img {
     color: #8e8f99;
     margin-bottom: 4px;
     display: block;
-
 }
 
 .send {
@@ -751,7 +707,8 @@ img {
     background-color: #4D5AE5;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer
+    cursor: pointer;
+    margin: 0 auto;
 }
 
 .pers {
@@ -782,7 +739,6 @@ img {
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .name:focus-within {
@@ -808,12 +764,10 @@ img {
     outline: transparent;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .text:focus {
     border-color: #4D5AE5;
-
 }
 
 .footer-label {
@@ -852,7 +806,6 @@ img {
     fill: transparent;
 }
 
-
 .accent {
     text-decoration: underline;
     color: #4d5ae5;
@@ -876,7 +829,6 @@ img {
 .subscribe-form {
     display: flex;
     gap: 24px;
-
 }
 
 .subscrib-input {
@@ -891,13 +843,10 @@ img {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     color: #ffffff;
-
-
 }
 
 .subscrib-input::placeholder {
     color: #ffffff;
-
 }
 
 .subscri {
@@ -909,13 +858,12 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-    letter-spacing: 0.04em;
+    letter-spacing: а0.04em;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
-
 }
 
 .svgsubscribe {
