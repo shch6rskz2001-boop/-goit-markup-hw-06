@@ -515,8 +515,6 @@ img {
 
 .footer-item {
     display: flex;
-    align-items: baseline;
-    flex-direction: row;
     flex-direction: column
 }
 
