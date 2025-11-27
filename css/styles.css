@@ -924,7 +924,6 @@ img {
         margin-bottom: 36px;
     }
 
-
     .business {
         font-size: 36px;
         line-height: 1.7;
@@ -945,7 +944,6 @@ img {
     .ourteam-list {
         gap: 64px 24px;
     }
-
 
     .portfolio-list {
         gap: 72px 24px;
@@ -979,48 +977,94 @@ img {
         margin-bottom: 72px 24px;
     }
 
-
-
     .subsc {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 24px;
-
     }
 }
 
 @media screen and (min-width: 1158px) {
 
     .nav-list {
-        display: none;
+        display: flex;
     }
 
     .contacts {
         display: flex;
-
-    }
-
-    .contacts-link {
-        padding: 0;
     }
 
     .container {
-        max-width: 1158px;
-        padding: 0 15px;
+        min-width: 1158px;
     }
 
-    .business-list {
-        font-size: 56px;
-        line-height: 1.07;
-        width: 496px;
+    .contacts-list {
+        align-items: center;
+        gap: 40px;
+        flex-direction: row;
+    }
+
+    .princip {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f4f4fd;
         margin-bottom: 36px;
     }
 
-    .business {
-        font-size: 48px;
-        padding: 188px 0;
+    .principles-list {
+        gap: 36px 12px 24px;
+        flex-direction: row;
+        align-items: center;
+        max-width: 1128px;
+    }
+
+    .principles-item {
+        flex-basis: calc((100% - 72px) / 4);
+    }
+
+    .ourteam-list {
+        gap: 288px 24px;
     }
 
 
+    .portfolio-list {
+        gap: 72px 24px;
+        justify-content: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .footer-item {
+        display: flex;
+        flex-direction: row;
+        flex-basis: calc((100% - 24px) / 2);
+        gap: 72px 24px;
+
+    }
+
+    .footer-footer {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 72px;
+        gap: 17px;
+        align-items: center;
+        flex-basis: calc((100% - 24px) / 4);
+    }
+
+    .footer-part {
+        flex-direction: row;
+        margin-bottom: 72px 24px;
+    }
+
+    .subsc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
 }
