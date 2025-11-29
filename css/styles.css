@@ -438,8 +438,6 @@ img {
     .ourteam-desk {
         padding: 32px 0;
         border-radius: 0 0 4px 4px;
-        padding-block: 0px 32px;
-        padding-inline: 0px;
         width: 264px;
     }
 
@@ -601,7 +599,7 @@ img {
 
     .footer-item {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
 
     .social {
@@ -912,7 +910,7 @@ img {
     }
 
     .subscrib-input {
-        width: 264px;
+        width: 288px;
         height: 40px;
         border: 1px solid #ffffff;
         background-color: transparent;
@@ -998,12 +996,19 @@ img {
 
     .contacts-link {
         padding: 0;
+        font-size: 12px;
     }
+
+        .subscrib-input {
+            width: 264px;
+        }
 
     .container {
         max-width: 768px;
 
     }
+
+
 
     .business-list {
         font-size: 56px;
@@ -1019,6 +1024,12 @@ img {
         padding: 112px 0;
     }
 
+        .portfolio-item {
+            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            width: calc((100% - 24px) / 2);
+        }
 
     .business-item {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/tablet/dark1x.jpg);
@@ -1042,6 +1053,9 @@ img {
         flex-direction: row;
     }
 
+
+
+    
     .principles-item {
         flex-basis: calc((100% - 24px) / 2);
     }
@@ -1088,6 +1102,7 @@ img {
         align-items: center;
         flex-basis: calc((100% - 24px) / 2);
         margin-right: 24px;
+        align-items: start;
     }
 
     .footer-part {
@@ -1098,7 +1113,7 @@ img {
     .subsc {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: start;
     }
 
     .socia {
@@ -1112,6 +1127,12 @@ img {
         line-height: 1.2;
         font-weight: 500;
         text-align: start;
+    }
+
+
+    
+    .soc {
+        align-items: start;
     }
 }
 
@@ -1197,8 +1218,8 @@ img {
     .footer-item.container {
         display: flex;
         flex-direction: row;
-        flex-basis: calc((100% - 24px) / 2);
-        gap: 72px 24px;
+        gap: unset;
+        flex-wrap: nowrap;
     }
 
     .footer-footer {
@@ -1217,6 +1238,13 @@ img {
         align-items: start;
 
     }
+
+        .portfolio-item {
+            transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            display: flex;
+            flex-direction: column;
+            width: calc((100% - 48px) / 3);
+        }
 
     .social {
         display: flex;
@@ -1265,6 +1293,7 @@ img {
     .soc {
         margin-bottom: 0;
         margin-right: 80px;
+        align-items: start;
     }
 
     .subscribe {
@@ -1275,7 +1304,6 @@ img {
         letter-spacing: 0.02em;
         color: #ffffff;
         gap: 168px;
-
     }
 
 
